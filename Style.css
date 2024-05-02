@@ -1,0 +1,90 @@
+@font-face {
+	font-family: OldEnglish;
+	src: url(Canterbury.ttf);
+}
+@font-face {
+	font-family: CambriaNu;
+	src: url(Cambria-Font-For-Windows.ttf);
+}
+p {
+	font-family: CambriaNu;
+	font-size: 18px;
+}
+#TitleText {
+	font-size: 50px;
+}
+.StandardHeader {
+	font-family: OldEnglish;
+	color: rgb(75,75,75);
+}
+.StandardLine {
+	margin-top: 5px;
+	border-top: 1px solid black;
+}
+.AboutLine {
+	border-top: 1px solid black;
+	float: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+}
+.StandardImage {
+	width: 125px;
+	height: 125px;
+	float: right;
+	margin: 2%;
+}
+#SidebarDiv {
+	margin-right: 3%;
+	/* border: 1px solid gray; */
+	background-color: rgb(206,255,206);
+	width: 20%;
+	float: right;
+	border-radius: 10px;
+}
+#Trigger {
+	width: 20%;
+	background: transparent;
+	border: 1px solid rgb(0,0,0);
+	border-radius: 20px;
+	font-family: Cambria;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+#Trigger:hover {
+	background-color: rgb(206,255,206);
+}
+#Trigger:active {
+	background-color: rgb(170,255,170);
+}
+.AboutText {
+	text-align: center;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+#BodyDiv {
+	float: left;
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+}
+#GilgameshDiv {
+	order: 5;
+	opacity: 0;
+}
+#TheseusDiv {
+	order: 6;
+	opacity: 0;
+}
+#SigurdDiv {
+	order: 7;
+	opacity: 0;
+}
+#YamatoDiv {
+	order: 8;
+	opacity: 0;
+}
+#ComparisonDiv {
+	order: 9;
+	opacity: 0;
+}
